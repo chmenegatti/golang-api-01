@@ -12,7 +12,7 @@ func GetAll() (todos []Todo, err error) {
 
 	defer conn.Close()
 
-	rows, err := conn.Query(`SELECT * FROM todos WHERE`)
+	rows, err := conn.Query(`SELECT * FROM todos`)
 	if err != nil {
 		return
 	}
