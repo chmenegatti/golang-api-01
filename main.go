@@ -4,9 +4,10 @@ import (
 	"fmt"
 	"net/http"
 
+	"github.com/go-chi/chi/v5"
+
 	"github.com/chmenegatti/golang-api-01/configs"
 	"github.com/chmenegatti/golang-api-01/handlers"
-	"github.com/go-chi/chi/v5"
 )
 
 func main() {
